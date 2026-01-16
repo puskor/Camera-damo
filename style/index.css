@@ -203,7 +203,7 @@ nav {
     display: none;
 }
 
-
+/* small device */
 
 @media screen and (max-width:768px) {
 
@@ -233,7 +233,7 @@ nav {
 
 
     .company {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 20px 10px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -272,7 +272,7 @@ nav {
         width: 400px;
         height: 250px;
     }
-s
+
 
     #feature-title {
         width: 400px;
@@ -281,6 +281,13 @@ s
 
     .more {
         justify-content: center;
+    }
+
+    /* .feeature-h1,#feature-title p{
+        padding: 0px 10px;
+    } */
+    .feeature-h1,#feature-title p,.feature-btn{
+        margin: 0px 10px;
     }
 
 }
