@@ -257,10 +257,19 @@ nav {
 
     }
 
+
+
+
+
+
+
+
+
     #features {
         flex-direction: column-reverse;
         margin-top: 20px;
         margin-bottom: 50px;
+        gap: 20px;
     }
 
     h1 {
@@ -275,19 +284,23 @@ nav {
 
 
     #feature-title {
-        width: 400px;
-        padding: 30px;
+        width: 100%;
+        max-width: 350px;
+        margin: 0px auto;
+        /* padding: 10px; */
     }
 
     .more {
         justify-content: center;
     }
 
-    /* .feeature-h1,#feature-title p{
-        padding: 0px 10px;
-    } */
-    .feeature-h1,#feature-title p,.feature-btn{
-        margin: 0px 10px;
+    #feature-title p{
+        width: 100%;
+
+    }
+    .main-2nd #features img{
+        width: 100%;
+        max-width: 350px;
     }
 
 }
