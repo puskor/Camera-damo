@@ -49,7 +49,14 @@ nav,
     padding: 10px 12px;
     border: none;
     color: white;
+}
 
+.btn:hover{
+    border: 1px solid #E02C6D;
+    background: transparent;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 
@@ -89,7 +96,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/Circle design.svg");
+    background-image: url("../images/Group.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
 
 }
 
